@@ -3,8 +3,6 @@ from pathlib import Path
 
 import numpy as np
 
-from data.features import polynomial_features  # re-export 供外部统一从 data 导入
-
 
 class LocalDataset:
     # 7:2:1随机

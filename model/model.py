@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 
-from data.features import polynomial_features
+from model.features import polynomial_features
 
 
 class BaseModel:
