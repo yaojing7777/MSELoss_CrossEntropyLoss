@@ -145,3 +145,7 @@ MODEL_CLASSES = {
 def load_model(path):
     """从 pkl 文件加载模型，自动还原成 LinearRegression 或 LogisticRegression。"""
     return BaseModel.load(path)
+
+
+def ceshi():
+    pass
